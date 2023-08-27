@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital@1&display=swap');
+
+* {
+    user-select: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+:root {
+    --cor1: #66C7FF;
+    --cor2: #19ABFF;
+    --cor3: #158ACC;
+    --cor4: #0D5580;
+    --cor5: rgb(9, 9, 9);
+    --cor6: #dfe0e2;
+    --cor-fundo: #1F2124;
+    --corfael: rgb(31, 32, 32);
+    --fonte-nick: 'Vina Sans', cursive;
+    --fonte-texto: 'Montserrat', sans-serif, Arial, Verdana;
+}
+
+.wall {
+    z-index: -10;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div.cor-sobrepor {
+    position: absolute;
+    z-index: -11;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #7e7e7ee3;
+}
+
+main {
+    margin: auto;
+    margin-top: 200px;
+    width: 400px;
+    height: 110px;
+    background-color: var(--cor5);
+    border-radius: 10px;
+}
+
+.fundo2 {
+    position: absolute;
+    background-color: var(--cor5);
+    top: 300px;
+    width: 400px;
+    height: 110px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.banner {
+    position: absolute;
+    width: 350px;
+    top: 220px;
+    margin-left: 23px;
+}
+
+.insignas {
+    position: absolute;
+    margin: 105px 0px 0px 335px;
+
+}
+
+.polemo {
+    width: 22px;
+}
+
+.nitro {
+    width: 28px;
+}
+
+
+
+
+
+.avatar {
+    position: absolute;
+    margin: 50px 15px 15px 15px;
+    width: 85px;
+    height: 80px;
+    border-radius: 80px;
+    border: 1px solid var(--cor5);
+}
+
+.nick {
+    position: absolute;
+    padding: 130px 0px 0px 10px;
+    -webkit-text-size-adjust: 100%;
+    font-family: open, sans-serif;
+    font-weight: 400;
+    text-align: left;
+    cursor: pointer;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin: 0;
+    line-height: 1.4;
+    margin-right: 3%;
+    margin-left: 5px;
+    color: #6130b1;
+    font-size: 30px;
+    color: #c2c0c0;
+}
+
+div.online {
+    z-index: 1;
+    position: absolute;
+    background-color: #1dab4a;
+    margin: 110px 0px 0px 75px;
+    border-radius: 100px;
+    width: 17px;
+    height: 17px;
+    border: 2px solid #edf0f5;
+}
+
+.nome {
+    position: absolute;
+    top: 375px;
+    margin: 14px 2px 0px 18px;
+    font-family: var(--fonte-text);
+    font-size: 15px;
+    color: rgba(186, 184, 184, 0.83);
+}
+
+iframe {
+    z-index: 15;
+    position: absolute;
+    top: 0px;
+    margin: 414px 10px 10px 1px;
+    height: 94px;
+    width: 401px;
+}
+
+.discord {
+    z-index: 1;
+    position: absolute;
+    background-color: #f6fff9;
+    margin: 2px 0px 0px -82px;
+    border-radius: 100px;
+    width: 17px;
+    height: 17px;
+    border: 2px solid #edf0f5;
+}
+
+.instagram {
+    z-index: 1;
+    position: absolute;
+    background-color: #f6fff9;
+    margin: 2px 0px 0px -107px;
+    border-radius: 95px;
+    width: 17px;
+    height: 17px;
+    border: 2px solid #edf0f5;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+
+
+
+.telefone {
+    z-index: 1;
+    position: absolute;
+    background-color: #0f0f0f;
+    margin: 2px 0px 0px -131px;
+    border-radius: 100px;
+    width: 17px;
+    height: 17px;
+    border: 2px solid #edf0f5;
+}
+
+.nick {
+    font-family: var(--fonte-nick);
+}
+
+.casa {
+    z-index: 1;
+    position: absolute;
+    background-color: #0f0f0f;
+    margin: 54px 0px 0px 38px;
+    border-radius: 100px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #49494a;
+
+
+
+}
+
+.card {
+    width: 260px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.chat-window {
+    height: 220px;
+    overflow-y: scroll;
+}
+
+.message-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.message-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.send-button {
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.develope {
+    z-index: 1;
+    position: absolute;
+    background-color: #0f0f0f;
+    margin: 38px 0px 0px -189px;
+    border-radius: 100px;
+    width: 89px;
+    height: 21px;
+    border: 2px solid rgb(0, 25, 69);
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Front-end {
+    z-index: 1;
+    position: absolute;
+    background-color: #0f0f0f;
+    margin: 38px 0px 0px -93px;
+    border-radius: 100px;
+    width: 89px;
+    height: 21px;
+    border: 2px solid rgb(0, 25, 69);
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.code {
+    position: absolute;
+    top: 375px;
+    margin: -7px 2px 0px 17px;
+    font-family: var(--fonte-text);
+    font-size: 15px;
+    color: rgba(255, 253, 253, 0.83);
+
+
+}
